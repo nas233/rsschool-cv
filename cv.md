@@ -17,6 +17,8 @@ I studying JS in RS school
   + Geography
    - Environmental management
 
+## Code examples
+
 ## Skills
 
 * Python
