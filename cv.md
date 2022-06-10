@@ -7,11 +7,11 @@
 
 ## About me
 
-I am learning JS front end right now
+I studying JS in RS school
 
 ## Education
 
-* Bachelor. Higher School of Economics.
+* Bachelor. Higher School of Economics
   + Management
 * Bachelor. Moscow State University
   + Geography
@@ -20,9 +20,11 @@ I am learning JS front end right now
 ## Skills
 
 * Python
-* JS
+* JavaScript
 * HTML/CSS
+* R
 
 ## Languages
 
 * English - Advanced (IELTS - 7.5)
+* German - Begginer
