@@ -1,10 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>CV</title>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Alexander Nikulin CV</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/style.css">
   </head>
   <body>
-    <h1>Alexander Nikulin</h1>
-    <h2>Contacts</h2>
+    <header>
+      <nav>
+        <ul>
+          <li class="nav-item"><a class="nav-link" href="#aboutme">About me</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contacts">Contacts</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#codeex">Code Examples</a></li>
+          <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+          <li class="nav-item"><a class="nav-link" href="#proj">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#lang">Languages</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+      <h1>Alexander Nikulin</h1>
+      <section class="about">
+        <h2 id="aboutme">About me</h2>
+        <img src="images/AlexCV.jpg" alt="profile image" class="photo"  width="90" height="120">
+        <span>I am an ecologist. Currently studying JS in RS school.</span>
+      </section>
+      
+      <h2 id="contacts">Contacts</h2>
+        <ul>
+          <li>GitHub: nas233</li>
+          <li>e-mail: <a href="mailto:nas233@gmail.com">nas233@gmail.com</a></li>
+          <li>Moscow, Russia</li>
+        </ul>
+      <h2 id ="skills">Skills</h2> 
+        <ul>
+          <li>Python</li>
+          <li>JavaScript</li>
+          <li>HTML/CSS</li>
+          <li>R</li>
+        </ul>
+      <h2 id="codeex">Code examples</h2>
+      <section class="code-ex">
+        <pre>
+          <code> 
+def func(number):
+  fib = [1, 1]
+  for i in range(2, number):
+    f = fib[i-1] + fib[i-2]
+    fib.append(f)
+  return fib
+          </code> 
+        </pre>
+      </section>
+      
+      <h2 id="proj">Projects</h2>
+      <article class="project">
+        <p>My project on <a href="https://github.com/nas233/rsschool-cv/">GitHub</a></p>
+      </article>
+      
+      <h2 id="education">Education</h2>
+      <ul>
+        <li>Higher School of Economics. Management</li>
+        <li>Moscow State University. Geography. Environmental management</li>
+        <li>Codecademy</li>
+      </ul>
+      <h2 id ="lang">Languages</h2>
+        <ul>
+          <li>English - Advanced (IELTS - 7.5)</li>
+          <li>German - Begginer</li>
+          <li>Russian - native</li>
+        </ul>
+    </main>
+    <footer class="foot">
+      <p class="date">2022</p>
+      <a href="https://github.com/nas233"><img src="images/gitH.jpg" alt="github" width="120" height="120"></a>
+      <a href="https://rs.school/js/"><img src="images/rs_school_js.svg" alt="RS image" width="350" height="120"></a>
+    </footer>
   </body>
 </html>
