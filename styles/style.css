@@ -2,7 +2,7 @@ body {
   max-width: 1024px;
   min-width: 600px;
   margin: 0 auto;
-  background-color: #e1dbc8;
+  background-color: #fffff8;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
