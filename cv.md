@@ -4,6 +4,7 @@
 
 * tel.+995 551 087 719
 * e-mail: nas233@gmail.com
+* Git: nas233
 
 ## About me
 
