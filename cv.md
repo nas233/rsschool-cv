@@ -23,6 +23,8 @@ I worked in marketing and environment, but I relocated to Georgia. I have analyt
 * Bachelor. Moscow State University
   + Geography
    - Environmental management
+* Master. Moscow State University
+    + Economics
 
 ## Code examples
 
