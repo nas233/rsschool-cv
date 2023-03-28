@@ -1,0 +1,20 @@
+body {
+ margin: 0 auto;
+ background-color: ;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+}
+
+.main{
+ max-width: 1024px;
+ margin: auto;
+}
+
+.foot {
+ display: inline-block;
+ align-items: center;
+ background-color: grey;
+
+}
+
