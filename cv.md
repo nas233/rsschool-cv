@@ -3,7 +3,7 @@
 ********
 
 ## Contacts
-====
+
 * **Phone:** +995551087719
 * **E-mail:** [nas233@gmail.com](nas233@gmail.com)
 * **Telegram:** [@ANiklin](https://t.me/aniklin)
@@ -11,11 +11,11 @@
 
 
 ## About me
-====
+
 I studied economics in Univercity, relocated to new country two years ago, since then working with diffent small IT projects, nowadays mostly on Laravel and Yii. I have degree in ecology and so trully enjoy spending time on nature. 
 
 ## Skills
-====
+
 * HTML5
 * CSS
 * JavaScript
@@ -32,7 +32,7 @@ I studied economics in Univercity, relocated to new country two years ago, since
 
 
 ## Code examples
-====
+
 
 ```
 <script>
@@ -50,19 +50,19 @@ I studied economics in Univercity, relocated to new country two years ago, since
 ``` 
 
 ## Experience
-====
+
 * Made projects on Laravel and Vue.js
 * Develope Football Database
 
 
 ## Education
-====
+
 * Bachelor - Ecology(Environmental Manager)
 * Coding cources:
     + RSSCHOOL
     + Codecademy
 
 ## Languages
-====
+
 * **English** - Advandec(IELTS -7.0)
 * **German** - Basic
