@@ -1,23 +1,20 @@
 # Alexander Nikulin
-*********
 
-##Contacts
+********
+
+## Contacts
 ====
 * **Phone:** +995551087719
 * **E-mail:** [nas233@gmail.com](nas233@gmail.com)
-* **Telegram:** [@ANiklin][tag1]
-* **Git:** [nas233][tag2]
+* **Telegram:** [@ANiklin](https://t.me/aniklin)
+* **Git:** [nas233](https://github.com/nas233/)
 
 
-[tag1][https://t.me/aniklin]
-[tag2][https://github.com/nas233/]
-
-
-##About me
+## About me
 ====
-I studied ecology in Universicty, relocated to new country two years, since then working with diffent small IT projects, nowadayws mostly on Laravel and Yii.
+I studied economics in Univercity, relocated to new country two years ago, since then working with diffent small IT projects, nowadays mostly on Laravel and Yii. I have degree in ecology and so trully enjoy spending time on nature. 
 
-##Skills
+## Skills
 ====
 * HTML5
 * CSS
@@ -34,7 +31,7 @@ I studied ecology in Universicty, relocated to new country two years, since then
 * MySQL
 
 
-##Code examples
+## Code examples
 ====
 
 ```
@@ -52,20 +49,20 @@ I studied ecology in Universicty, relocated to new country two years, since then
 </script>
 ``` 
 
-##Experience
+## Experience
 ====
 * Made projects on Laravel and Vue.js
-* Develope Football Datebase
+* Develope Football Database
 
 
-##Education
+## Education
 ====
 * Bachelor - Ecology(Environmental Manager)
 * Coding cources:
     + RSSCHOOL
     + Codecademy
 
-##Languages
+## Languages
 ====
 * **English** - Advandec(IELTS -7.0)
 * **German** - Basic
