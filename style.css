@@ -81,13 +81,13 @@ h1 {
 }
 
 .main-link {
-    color: darkslategray;
-    font-weight: 600;
+    color: rgb(70, 114, 114);
+    font-weight: 700;
 }
 
 .main-link:hover {
-    color: darkslategrey;
-    font-weight: 800;
+    color: rgb(46, 72, 72);
+    font-weight: 900;
 }
 
 pre {
