@@ -3,8 +3,146 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="icon" href="assets/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Raleway:wght@700&display=swap" rel="stylesheet">
+    <title>CV</title>
 </head>
 <body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list"> 
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacts">Contacts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills" >Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#code" >Code</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education" >Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#languages">Languages</a>
+                    </li>  
+                </ul>
+            </nav>
+        </div>            
+    </header>
+    <main class="main">
+        <div class="container">
+            <section id="profile">
+                <h1>Alexander Nikulin</h1>
+                <img src="assets\img\myPhoto.jpg" alt="my photo" class="profile-photo"/>
+            </section>
+            <section id="about">
+                <h2>About me</h2>
+                <p>I studied economics in Univercity, relocated to new country two years ago, since then working with diffent small IT projects, nowadays mostly on Laravel and Yii. I have degree in ecology and so trully enjoy spending time on nature.</p>
+            </section>
+            <section id="contacts">
+                <h2>Contacts</h2>
+                    <ul>
+                        <li><strong>Phone:</strong> +995551087719</li>
+                        <li><strong>E-mail:</strong> <a class="main-link" href="mailto:nas233@gmail.com">nas233@gmail.com</a></li>
+                        <li><strong>Telegram:</strong> <a class="main-link" href="https://t.me/aniklin">@ANiklin</a></li>
+                        <li><strong>Git:</strong> <a class="main-link" href="https://github.com/nas233">nas233</a></li>
+                    </ul>
+            </section>
+            <section id="skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li><strong>HTML/CSS</strong></li>
+                    <li><strong>JavaScript</strong></li>
+                    <li><strong>Vue.js</strong></li>
+                    <li><strong>Python</strong></li>
+                    <li><strong>PHP</strong></li>    
+                        <ul>
+                            <li>Laravel</li>
+                            <li>Yii</li>
+                        </ul>
+                    <li><strong>Git</strong> (GitHub, GitLab)</li>
+                    <li><strong>VSCode</strong></li>
+                    <li><strong>MySQL</strong></li>
+                </ul>              
+            </section>
+            <section id="experience">
+                <h2>Experience</h2>
+                    <ul>
+                        <li>Made projects on Laravel and Vue.js</li>
+                        <li>Develope Football Database</li>
+                        <li>Site for ice rink</li>
+                        <li>My Project for RS School: <a class="main-link" href="https://nas233.github.io/rsschool-cv/">CV</a></li>
+                    </ul>
+            </section>
+            <section id="code">
+                <h2>Code example</h2>
+                <pre>
+                    <code>
+        var chatBox = document.querySelector('.chat-box');
+        var chatNavigation = document.querySelector('.chat__navigation');
+        var chatRight = document.getElementById('chat_right');
+
+        function getElementHeight(element) {
+            return parseInt(window.getComputedStyle(element).height);
+        }
+
+        function calculateAvailableHeight() {
+            var chatRightRect = chatRight.getBoundingClientRect();
+            var windowHeight = window.innerHeight;
+            var chatRightHeight = getElementHeight(chatRight);
+            var chatNavigationHeight = getElementHeight(chatNavigation);
+
+            return chatRightHeight - chatRightRect.bottom + windowHeight - chatNavigationHeight;
+        }
+
+        function updateChatBoxHeight() {
+            var availableHeight = calculateAvailableHeight();
+            chatBox.style.height = availableHeight + 'px';
+        }
+
+        window.addEventListener('scroll', updateChatBoxHeight);
+        window.addEventListener('resize', updateChatBoxHeight);
+        updateChatBoxHeight();
+                    </code>
+                </pre>
+            </section>
+            <section id="education">
+                <h2>Education</h2>
+                    <ul>
+                        <li><strong>Bachelor</strong>: Ecology(Environmental Manager)</li>
+                        <li><strong>Coding cources:</strong>
+                            <ul>
+                                <li>RS School</li>
+                                <li>Codecademy</li>
+                            </ul>
+                        </li>
+                    </ul>
+            </section>
+            <section id="languages">
+                <h2>Languages</h2>
+                    <ul>
+                        <li><strong>English:</strong> Advandec(IELTS -7.0)</li>
+                        <li><strong>German:</strong> Basic</li>
+                    </ul>
+            </section> 
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <ul class="foot-list">
+                <li><a class="foot-link" href="https://github.com/nas233"><img src="assets/svg/github-logo.svg" alt="RS School">GitHub</a></li>
+                <li><span>2024</span></li>
+                <li><a class="foot-link" href="https://rs.school/courses/javascript-preschool-ru"><img src="assets/svg/rs-school-logo.svg" alt="RS School"></a></li>
+            </ul>
+        </div>
+    </footer>
 </body>
 </html>
