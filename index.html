@@ -16,22 +16,22 @@
             <nav class="nav">
                 <ul class="nav-list"> 
                     <li class="nav-item">
-                        <a href="" class="nav-link">About</a>
+                        <a class="nav-link" href="#about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a href="" class="nav-link">Contacts</a>
+                        <a class="nav-link" href="#contacts">Contacts</a>
                     </li>
                     <li class="nav-item">
-                        <a href="" class="nav-link">Skills</a>
+                        <a class="nav-link" href="#skills" >Skills</a>
                     </li>
                     <li class="nav-item">
-                        <a href="" class="nav-link">Code</a>
+                        <a class="nav-link" href="#code" >Code</a>
                     </li>
                     <li class="nav-item">
-                        <a href="" class="nav-link">Education</a>
+                        <a class="nav-link" href="#education" >Education</a>
                     </li>
                     <li class="nav-item">
-                        <a href="" class="nav-link">Languages</a>
+                        <a class="nav-link" href="#languages">Languages</a>
                     </li>  
                 </ul>
             </nav>
@@ -39,24 +39,24 @@
     </header>
     <main class="main">
         <div class="container">
-            <section class="profile">
+            <section id="profile">
                 <h1>Alexander Nikulin</h1>
                 <img src="assets\img\myPhoto.jpg" alt="my photo" class="profile-photo"/>
             </section>
-            <section class="about">
+            <section id="about">
                 <h2>About me</h2>
                 <p>I studied economics in Univercity, relocated to new country two years ago, since then working with diffent small IT projects, nowadays mostly on Laravel and Yii. I have degree in ecology and so trully enjoy spending time on nature.</p>
             </section>
-            <section class="contacts">
+            <section id="contacts">
                 <h2>Contacts</h2>
                     <ul>
                         <li><strong>Phone:</strong> +995551087719</li>
-                        <li><strong>E-mail:</strong> <a href="mailto:nas233@gmail.com">nas233@gmail.com</a></li>
-                        <li><strong>Telegram:</strong> <a href="https://t.me/aniklin">@ANiklin</a></li>
-                        <li><strong>Git:</strong> <a href="https://github.com/nas233">nas233</a></li>
+                        <li><strong>E-mail:</strong> <a class="main-link" href="mailto:nas233@gmail.com">nas233@gmail.com</a></li>
+                        <li><strong>Telegram:</strong> <a class="main-link" href="https://t.me/aniklin">@ANiklin</a></li>
+                        <li><strong>Git:</strong> <a class="main-link" href="https://github.com/nas233">nas233</a></li>
                     </ul>
             </section>
-            <section class="skills">
+            <section id="skills">
                 <h2>Skills</h2>
                 <ul>
                     <li><strong>HTML/CSS</strong></li>
@@ -73,55 +73,74 @@
                     <li><strong>MySQL</strong></li>
                 </ul>              
             </section>
-            <section class="Code example">
-                <h2>Code example</h2>
-                <pre>
-                    <code>
-                        function ajaxRequest(url, params, callback) {
-                            var xhr = new XMLHttpRequest();
-                            xhr.onreadystatechange = function() {
-                            if (xhr.readyState == 4 && xhr.status == 200) {
-                                callback(JSON.parse(xhr.responseText));
-                            }
-                            };
-                            xhr.open('GET', url + '?' + params, true);
-                            xhr.send();
-                        }
-                    </code>
-                </pre>
-            </section>
-            <section class="experience">
+            <section id="experience">
                 <h2>Experience</h2>
                     <ul>
                         <li>Made projects on Laravel and Vue.js</li>
                         <li>Develope Football Database</li>
                         <li>Site for ice rink</li>
-                        <li>Project for RS School</li>
+                        <li>My Project for RS School: <a class="main-link" href="https://nas233.github.io/rsschool-cv/">CV</a></li>
                     </ul>
             </section>
-            <section class="education">
-                <h2>Education</h2>
-                
+            <section id="code">
+                <h2>Code example</h2>
+                <pre>
+                    <code>
+        var chatBox = document.querySelector('.chat-box');
+        var chatNavigation = document.querySelector('.chat__navigation');
+        var chatRight = document.getElementById('chat_right');
 
-        Bachelor - Ecology(Environmental Manager)
-        Coding cources:
-            RS School
-            Codecademy
+        function getElementHeight(element) {
+            return parseInt(window.getComputedStyle(element).height);
+        }
+
+        function calculateAvailableHeight() {
+            var chatRightRect = chatRight.getBoundingClientRect();
+            var windowHeight = window.innerHeight;
+            var chatRightHeight = getElementHeight(chatRight);
+            var chatNavigationHeight = getElementHeight(chatNavigation);
+
+            return chatRightHeight - chatRightRect.bottom + windowHeight - chatNavigationHeight;
+        }
+
+        function updateChatBoxHeight() {
+            var availableHeight = calculateAvailableHeight();
+            chatBox.style.height = availableHeight + 'px';
+        }
+
+        window.addEventListener('scroll', updateChatBoxHeight);
+        window.addEventListener('resize', updateChatBoxHeight);
+        updateChatBoxHeight();
+                    </code>
+                </pre>
             </section>
-            <section class="languages">
-                Languages
-
-        English - Advandec(IELTS -7.0)
-        German - Basic
+            <section id="education">
+                <h2>Education</h2>
+                    <ul>
+                        <li><strong>Bachelor</strong>: Ecology(Environmental Manager)</li>
+                        <li><strong>Coding cources:</strong>
+                            <ul>
+                                <li>RS School</li>
+                                <li>Codecademy</li>
+                            </ul>
+                        </li>
+                    </ul>
+            </section>
+            <section id="languages">
+                <h2>Languages</h2>
+                    <ul>
+                        <li><strong>English:</strong> Advandec(IELTS -7.0)</li>
+                        <li><strong>German:</strong> Basic</li>
+                    </ul>
             </section> 
         </div>
     </main>
     <footer class="footer">
         <div class="container">
             <ul class="foot-list">
-                <li><a href="https://github.com/nas233" class="foot-link"><img src="assets/svg/github-logo.svg" alt="RS School">GitHub</a></li>
+                <li><a class="foot-link" href="https://github.com/nas233"><img src="assets/svg/github-logo.svg" alt="RS School">GitHub</a></li>
                 <li><span>2024</span></li>
-                <li><a href="https://rs.school/courses/javascript-preschool-ru" class="foot-link"><img src="assets/svg/rs-school-logo.svg" alt="RS School"></a></li>
+                <li><a class="foot-link" href="https://rs.school/courses/javascript-preschool-ru"><img src="assets/svg/rs-school-logo.svg" alt="RS School"></a></li>
             </ul>
         </div>
     </footer>
