@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+  }
+
 body {
     border: 2px solid rgb(244, 153, 17);
     display: flex;
@@ -8,9 +12,43 @@ body {
     font-style: normal;
 }
 
+
+
 .container {
     max-width: 1440px;
     margin: 0 auto;
+    width: 100%;
+}
+
+.header {
+    background-color: rgb(99, 147, 189);
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+li.nav-item {
+    list-style: none;
+    padding: 2px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: rgb(213, 228, 242);
+    transition: 0.3s;
+    font-weight: 800;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+.main {
+    background-color: aliceblue;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 
@@ -21,3 +59,43 @@ h1 {
     font-style: normal;    
 }
 
+.profile-photo {
+    width: 30%;
+}
+
+pre {
+    background-color: lightgray;
+}
+
+.footer {
+    background-color: rgb(99, 147, 189);
+}
+
+.foot-list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    /* padding: 5px; */
+}
+
+.foot-link img{
+    height: 30px;
+}
+
+.foot-link {
+    text-decoration: none;
+    color: rgb(213, 228, 242);
+    transition: 0.3s;
+    font-weight: 800;
+}
+
+.foot-link:hover {
+    color: white;
+}
+
+
+@media (max-width: 768px) {
+    /* section {
+      width: 100%;
+    } */
+  }
