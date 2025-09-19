@@ -63,5 +63,5 @@ I studied economics in Univercity, relocated to new country three years ago, sin
 
 ## Languages
 
-* **English** - Advandec(IELTS -7.0)
+* **English** - Advanced(IELTS -7.0)
 * **German** - Basic
