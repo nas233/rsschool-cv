@@ -12,7 +12,7 @@
 
 ## About me
 
-I studied economics in Univercity, relocated to new country two years ago, since then working with diffent small IT projects, nowadays mostly on Laravel and Yii. I have degree in ecology and so trully enjoy spending time on nature. 
+I studied economics in Univercity, relocated to new country three years ago, since then working with diffent small IT projects,  Yii. I also work as a tutor for schoolchildren. I have degree in ecology and so trully enjoy spending time on nature. 
 
 ## Skills
 
@@ -22,7 +22,6 @@ I studied economics in Univercity, relocated to new country two years ago, since
 * Vue.js
 * Python
 * PHP
-    + Laravel
     + Yii
 * Git
     + GitHub
